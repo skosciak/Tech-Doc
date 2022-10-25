@@ -1,0 +1,133 @@
+@font-face {
+    font-family: oswald;
+    src: url(Assets/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: bebas;
+    src: url(Assets/BebasNeue-Regular.ttf);
+}
+
+@media only screen and (max-width : 320px) {
+    html {
+        font-size: 4px;
+    }
+}
+
+@media only screen and (min-width : 320px) {
+    html {
+        font-size: 6px;
+    }
+}
+
+@media only screen and (min-width : 480px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width : 1200px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+:root {
+    --code-color: #2FD8D8;
+}
+
+html {
+    cursor: default;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #a9a9a9;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+code {
+    background-color: var(--code-color);
+    padding: 0 .5em 0 .5em;
+    border: 0;
+    border-radius: .30em;
+}
+
+section header {
+    font-size: 2em;
+}
+
+#navbar {
+    position: fixed;
+    width: 10em;
+    height: 100%;
+    background-color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0em 0em 1em 2px black;
+}
+
+#title {
+    text-align: center;
+    font-family: bebas, Impact;
+    font-size: 2rem;
+    color: #fff8dc;
+    text-transform: uppercase;
+}
+
+#nav-list {
+    font-size: 2rem;
+    position: relative;
+    padding-left: 0.25em;
+}
+
+#nav-list li {
+    font-family: oswald, fantasy;
+    font-weight: bold;
+    border-bottom: 0.2em solid #4a7f81;
+    border-left: 0.2em solid #305354;
+    margin-bottom: 1em;
+    padding-left: .5em;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#main-doc {
+    margin-left: 10em;
+    background-color: #fff8dc;
+}
+
+.main-section {
+    padding: 2rem;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: oswald, fantasy;
+    text-transform: uppercase;
+}
+
+.text {
+    margin-left: .32em;
+    padding-left: .32em;
+    border-left: .12em solid black;
+    text-transform: none;
+}
+
+.list {
+    margin-left: .32em;
+    padding-left: .32em;
+    border-left: .12em solid black;
+    text-transform: none;
+}
